@@ -6,7 +6,7 @@ The **UK Company Profiling Project** is a Python-based data analysis pipeline de
 
 ### Key Features
 - **Data Ingestion**: Loads and processes a CSV dataset (`CompanyV2 (July 2025).csv`) containing detailed information about UK companies, including company names, registration details, addresses, SIC codes, and financial statuses.
-- **API Integration**: Connects to the Companies House API to fetch additional company details, enhancing the dataset with real-time information (requires a valid API key).
+- **API Integration**: Connects to the Companies House API to fetch additional company details, enhancing the dataset with real-time information (requires a valid API key). __However, I got an issue to create an API key from Companies House__.
 - **Fuzzy Matching**: Uses `thefuzz` for intelligent string matching to identify similar company names or resolve inconsistencies in the dataset.
 - **Data Visualization**: Employs `matplotlib` and `seaborn` to create insightful visualizations, such as histograms of company incorporation dates or bar charts of industry sectors based on SIC codes.
 - **Comprehensive Analysis**: Provides a foundation for exploring company statuses (e.g., Active, Liquidation), financial metrics, and mortgage details, enabling deep dives into business trends.
@@ -63,13 +63,6 @@ Whether you're analyzing market competition, studying company lifecycles, or bui
 
 ---
 
-## 📊 Example Insights
-- **Industry Trends**: Analyze the prevalence of specific SIC codes to identify dominant sectors (e.g., waste management, retail, or artistic creation).
-- **Company Longevity**: Explore incorporation dates to understand the age distribution of active companies.
-- **Financial Health**: Examine account categories (e.g., Total Exemption Full, Micro Entity) and mortgage statuses to gauge financial stability.
-
----
-
 ## 🧑‍💻 Contributing
 Contributions are welcome! Whether it's adding new features, improving visualizations, or optimizing the code, here’s how you can contribute:
 1. Fork the repository.
@@ -88,10 +81,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## 🙌 Acknowledgments
-- **Companies House API**: For providing access to comprehensive UK company data.
 - **Open-Source Community**: For libraries like `pandas`, `thefuzz`, `matplotlib`, and `seaborn` that power this project.
 - **Data Enthusiasts**: For inspiring the pursuit of actionable insights through data.
 
----
-
-Ready to dive into the world of UK business analytics? Clone this repo, fire up the notebook, and start uncovering the stories hidden in the data! 🚀
